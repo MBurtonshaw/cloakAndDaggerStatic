@@ -1,0 +1,98 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(name='format-detection' content='telephone=no')
+    title Cloak & Dagger
+    link#change_css(rel='stylesheet' href='')
+    link(rel='stylesheet' href='./static/stylesheets/normalize.css')
+    link(rel='stylesheet' href='./static/stylesheets/header.css')
+    link(rel='stylesheet' href='./static/stylesheets/footer.css')
+    // Font Links
+    link(href='https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap' rel='stylesheet')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+  body
+    #container
+      #one
+        #one_img_div
+          a(href='http://cloakanddaggercle.com')
+            img#one_img(src='./static/img/CD_Logo_Horizontal.png')
+        #one_menu_div
+          ul#one_menu
+            li#one_menu_first.one_menu
+              a.one_menu_a(href='menu') MENU
+            li#one_menu_second.one_menu
+              a.one_menu_a(href='videos') VIDEOS
+            li#one_menu_third.one_menu
+              a.one_menu_a(href='gallery') GALLERY
+            li#one_menu_fourth.one_menu
+              a.one_menu_a(href='contact') CONTACT
+            li#one_menu_fifth.one_menu
+              a.one_menu_a(href='https://app.upserve.com/s/cloak-and-dagger-cocktail-lounge-lakewood') TAKEOUT
+      #two
+        #two_contacts_div
+          h3#address.two_contacts
+            | 2399 W. 11TH ST. CLEVELAND, OH 44113 ·
+          h3#phone.two_contacts
+            a(href='tel:216-795-5657') (216) 795-5657
+      #three
+        #three_img_div
+          img#three_img(src='./static/img/slideshow_5.png')
+        #three_img_small_div
+          img#three_img_small(src='./static/img/CD_Icon_trans.png')
+      #four
+        h1#four_h1
+          | Prologue
+        #four_text_box_div
+          p#four_text
+            | A cocktail lounge with focus on hospitality and craft
+            | located next to Lincoln Park in the historic Tremont
+            | neighborhood of Cleveland.
+          #four_time_div
+            #four_weekends_div
+              p#four_weekends
+                | Tues - Sun
+              p#four_weekends_time
+                | 4pm - 11pm
+      #five
+        #five_img_div
+          img#five_img(src='./static/img/MenuImage_1.png')
+        #five_text_div
+          h1#five_h1
+            | Eat & Drink
+          #five_p_div
+            p#five_p
+              | A journey through the Tales of Life & Death; our
+              | debut menu.
+          #five_h4_div
+            a.side_anchors(href='menu')
+              h4#five_h4
+                | VIEW MENU BOOK
+      #six
+        #six_img_div
+          img#six_img(src='./static/img/GalleryImage_1.png')
+        #six_text_div
+          h1#six_h1
+            | Gallery
+          #six_p_div
+            p#six_p
+              | A look inside Cloak & Dagger. All videos and
+              | photos captured by Josh Dobay.
+          #six_h4_div
+            a.side_anchors(href='gallery')
+              h4#six_h4
+                | VIEW GALLERY
+      #seven
+        p#seven_text
+          | Sign up for our newsletter
+        #seven_socials_div
+          a#seven_facebook_a(target='_blank' href='https://facebook.com/cloakanddaggercle')
+            img#seven_facebook(src='./static/img/CD_Facebook.png')
+          a#seven_instagram_a(target='_blank' href='https://instagram.com/cloakanddaggercle')
+            img#seven_instagram(src='./static/img/CD_Instagram.png')
+        .klaviyo-form-RBSHP6
+      script(async='' type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TMxbzu')
+      script(src='./static/js/script.js')
+      script(src='./static/js/mobile.js')

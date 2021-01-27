@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(21, 21, 21);
+    font-family: "Goudy Bookletter 1911";
+    letter-spacing: 2px;
+    text-align: center;
+}
+#container {
+    color: rgb(173, 129, 86);
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*================================================================================================================================*/
+/*============================================---------- SECTION ONE -----------===================================================*/
+/*================================================================================================================================*/
+
+/*FLEXBOX/////////////////////*/
+
+#one {
+    display: flex;
+    width: 100%;
+}
+#one_img_div {
+    display: flex;
+    flex: 1;
+    width: 60%;
+    align-items: flex-start;
+    padding: 1em;
+}
+#one_img {
+    width: 100%;
+}
+#one_menu_div {
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#one_menu {
+    display: flex;
+    justify-content: space-around;
+}
+.one_menu {
+    flex: 1;
+}
+
+@media all and (max-width: 850px) {
+    #one_img_div {
+        flex: 1;
+        width: 100%;
+        padding-left: 1em;
+    }
+    #one_img {
+        width: 100%;
+        padding: 1em;
+    }
+    #one_menu_div {
+        flex: 1;
+    }
+    #one_menu_img {
+        width: 75%;
+        padding: 0.7em;
+    }
+}
+@media all and (max-width: 750px) {
+    #one_img_div {
+        flex: 2;
+    }
+    #one_img {
+        width: 75%;
+    }
+    #one_menu_img {
+        width: 60%;
+    }
+}
+@media all and (max-width: 500px) {
+    #one_img_div {
+        padding-left: 0.1em;
+        padding-top: 0.7em;
+    }
+    #one_img {
+        width: 100%;
+    }
+    #one_menu_div {
+        padding-bottom: 0.6em;
+    }
+}
+
+/*STYLING//////////////////////*/
+
+#one_menu {
+    list-style-type: none;
+}
+.one_menu {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    padding: 1em 1em 0em 0em;
+}
+.one_menu_a {
+    color: rgb(225, 213, 186);
+    text-decoration: none;
+}
+.one_menu_a:hover {
+    color: rgb(173, 129, 86);
+}
+
+/*===============================================================================================================================*/
+/*============================================---------- SECTION TWO ----- ========================================================*/
+/*================================================================================================================================*/
+
+/*FLEXBOX///////////////////////*/
+
+#two {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+#two_contacts_div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+#address {
+    flex: 2;
+}
+#phone {
+    flex: 1;
+}
+
+/*STYLING///////////////////////*/
+
+#two {
+    background-color: rgb(173, 129, 86);
+}
+#two_contacts_div {
+    margin: auto;
+    width: 100%;
+}
+.two_contacts {
+    letter-spacing: 2.5px;
+    word-spacing: 2.5px;
+    font-weight: 100;
+    font-size: 1em;
+}
+#address {
+    color: black;
+    text-align: right;
+    padding-right: 1em;
+}
+#phone {
+    color: black;
+    text-align: left;
+}
+#phone a {
+    color: black;
+    text-decoration: none;
+}
+@media all and (max-width: 850px) {
+    .two_contacts {
+        font-size: 0.6em;
+        word-spacing: 1px;
+    }
+}
+@media all and (max-width: 500px) {
+    #two {
+        display: block;
+    }
+    #two_contacts_div {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 69% 1% 30%;
+    }
+    .two_contacts {
+        letter-spacing: 1px;
+    }
+    #address {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        font-size: 0.5;
+    }
+    #phone {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        font-size: 0.7em;
+    }
+}

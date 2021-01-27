@@ -1,0 +1,253 @@
+/*================================================================================================================================*/
+/*================================================================================================================================*/
+/*========================================-------CLOAK AND DAGGER-------========================================================*/
+/*================================================================================================================================*/
+/*================================================================================================================================*/
+
+/*  
+    font: "https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap"
+    dark background color: rgb(21, 21, 21);
+    light background color: rgb(173, 129, 86);
+    light text color: rgb(225, 213, 186);
+*/
+
+
+/*=================================================================================================================================*/
+/*============================================---------- SECTION THREE -----------================================================*/
+/*=================================================================================================================================*/
+#three {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: auto 14.5em auto;
+    grid-template-rows: auto 22em auto;
+}
+#three_img_div {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: auto;
+    width: 100%;
+}
+#three_img {
+    height: 100%;
+    width: 100%;
+}
+#three_img_small_div {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 100%;
+    width: 100%;
+}
+#three_img_small {
+    height: 100%;
+    width: 100%;
+}
+/*================================================================================================================================*/
+/*============================================---------- SECTION FOUR ------------=================================================*/
+/*================================================================================================================================*/
+#four {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0em 2em 0em;
+}
+#four_h1 {
+    flex: 1;
+    color: rgb(173, 129, 86);
+    text-align: center;
+    font-family: "madlove2regular";
+    font-weight: 300;
+    font-size: 4em;
+}
+#four_text_box_div {
+}
+#four_text {
+    flex: 1;
+    width: 65%;
+    margin: auto;
+    color: rgb(225, 213, 186);
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-weight: 100;
+}
+#four_time_div {
+    flex: 1;
+    width: 100%;
+    padding-top: 2em;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+#four_weekdays_div {
+    display: grid;
+    grid-template-columns: 30% 19.5% 20% 30.5%;
+    grid-template-rows: 3em;
+}
+#four_weekdays {
+    color: rgb(173, 129, 86);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: right;
+    margin-right: 0.25em;
+    font-size: 1.2em;
+}
+#four_weekdays_time {
+    color: rgb(225, 213, 186);
+    grid-column-start: 3;
+    grid-column-end: 3;
+    text-align: left;
+    margin-left: 0.25em;
+    font-size: 1.2em;
+}
+#four_weekends_div {
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    grid-template-rows: 4em;
+}
+#four_weekends {
+    color: rgb(173, 129, 86);
+    text-align: right;
+    margin-right: 0.25em;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-size: 1.2em;
+}
+#four_weekends_time {
+    color: rgb(225, 213, 186);
+    grid-column-start: 3;
+    grid-column-end: 3;
+    text-align: left;
+    margin-left: 0.25em;
+    font-size: 1.2em;
+}
+/*================================================================================================================================*/
+/*=======================================---------- SECTION FIVE -----------====================================================*/
+/*===============================================================================================================================*/
+#five {
+    display: flex;
+    background-color: rgb(173, 129, 86);
+    width: 100%;
+}
+#five_img_div {
+    flex: 3;
+    order: 2;
+    padding: 1.5em 0em 1.5em 1.5em;
+    width: auto;
+    height: 100%;
+}
+#five_img {
+    width: 100%;
+}
+#five_text_div {
+    flex: 2;
+    order: 1;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+#five_h1 {
+    flex: 1;
+    font-family: "madlove2regular";
+    font-size: 4em;
+    font-weight: 300;
+    color: black;
+}
+#five_p_div {
+    flex: 1;
+    width: 55%;
+    margin: auto;
+    
+}
+#five_p {
+    font-size: 1.2em;
+    color: rgb(225, 213, 186);
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+#five_h4_div {
+    flex: 1;
+    padding-top: 2em;
+}
+#five_h4 {
+    width: 50%;
+    margin: auto;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    border: solid 2px rgb(225, 213, 186);
+    padding: 0.35em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+/*==========================================================================================================================*/
+/*========================================---------- SECTION SIX -------------==================================================*/
+/*=========================================================================================================================*/
+#six {
+    display: flex;
+    background-color: rgb(173, 129, 86);
+    text-align: center;
+    width: 100%;
+}
+#six_img_div {
+    flex: 3;
+    padding: 0em 1.5em 1.5em 0em;
+    width: auto;
+    height: 100%;
+}
+#six_img {
+    width: 100%;
+}
+#six_text_div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#six_h1 {
+    flex: 1;
+    font-size: 4em;
+    font-family: "madlove2regular";
+    font-weight: 300;
+    color: black;
+}
+#six_p_div {
+    flex: 1;
+    width: 60%;
+    margin: auto;
+    padding: 0.5em 0em 1em 0em;
+}
+#six_p {
+    font-size: 1.2em;
+    color: rgb(225, 213, 186);
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+#six_h4_div {
+    flex: 1;
+    padding-top: 2em;
+}
+#six_h4 {
+    width: 50%;
+    margin: auto;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    border: solid 2px rgb(225, 213, 186);
+    padding: 0.35em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.side_anchors {
+    text-decoration: none;
+    color: black;
+
+}

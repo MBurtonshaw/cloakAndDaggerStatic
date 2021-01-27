@@ -1,0 +1,100 @@
+/*===============================================================================================================================*/
+/*========================================----------- SECTION SEVEN ------------===================================================*/
+/*===============================================================================================================================*/
+#seven {
+    width: auto;
+    margin: auto;
+    display: flex;
+}
+
+#seven_text {
+    color: rgb(225, 213, 186);
+    order: 2;
+    flex: 2;
+    text-align: right;
+    padding-right: 0.5em;
+    padding-top: 2.6em;
+}
+
+#seven_socials_div {
+    order: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1em;
+}
+
+#seven_facebook {
+    flex: 1;
+    padding: 2em 1em 1em 2em;
+    width: 45%;
+}
+
+#seven_facebook_a {
+}
+
+#seven_instagram {
+    flex: 1;
+    padding: 2em 1em 1em 1em;
+    width: 50%;
+}
+
+#seven_instagram_a {
+}
+
+.klaviyo-form-RBSHP6 {
+    order: 3;
+    flex: 2;
+    height: 60%;
+    background-color: rgb(22, 22, 22);
+    padding-top: 1.7em;
+}
+@media all and (max-width: 900px) {
+    #seven {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    #seven_socials_div {
+        flex: 2;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        padding-left: 0;
+    }
+    #seven_facebook_a {
+        width: 60%;
+        margin: auto;
+    }
+    #seven_instagram_a {
+        width: 60%;
+        margin: auto;
+    }
+    #seven_facebook {
+        flex: 1;
+        width: 65%;
+        margin: auto;
+    }
+    #seven_instagram {
+        flex: 1;
+        width: 65%;
+        margin: auto;
+    }
+    #seven_text {
+        width: auto;
+        letter-spacing: 1px;
+        font-size: 1.1em;
+        margin: auto;
+        text-align: center;
+        flex: 1;
+        padding-top: 0.5em;
+    }
+    .klaviyo-form-RBSHP6 {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        flex: 1;
+        padding-top: 0;
+    }
+}

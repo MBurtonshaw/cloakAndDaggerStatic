@@ -1,0 +1,47 @@
+doctype html
+html(lang='')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet' href='../static/stylesheets/normalize.css')
+        link(rel='stylesheet' href='../static/stylesheets/error.css')
+        link(rel='stylesheet' href='../static/stylesheets/header.css')
+        link(rel='stylesheet' href='../static/stylesheets/footer.css')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        title 500 error
+    body
+        #one
+          #one_img_div
+            a(href='http://cloakanddaggercle.com')
+              img#one_img(src='../static/img/CD_Logo_Horizontal.png')
+          #one_menu_div
+            ul#one_menu
+              li#one_menu_first.one_menu
+                a.one_menu_a(href='menu') MENU
+              li#one_menu_second.one_menu
+                a.one_menu_a(href='videos') VIDEOS
+              li#one_menu_third.one_menu
+                a.one_menu_a(href='gallery') GALLERY
+              li#one_menu_fourth.one_menu
+                a.one_menu_a(href='contact') CONTACT
+        #two
+          #two_contacts_div
+            h3#address.two_contacts
+              | 2399 W. 11TH ST. CLEVELAND, OH 44113 ·
+            h3#phone.two_contacts
+              a(href='tel:216-795-5657') (216) 795-5657
+        .header_div
+            h1.header 500 error
+            h1.header My bad...
+        #seven
+            #seven_socials_div
+              a#seven_facebook_a(target='_blank' href='https://facebook.com/cloakanddaggercle')
+                img#seven_facebook(src='../static/img/CD_Facebook.png')
+              a#seven_instagram_a(target='_blank' href='https://instagram.com/cloakanddaggercle')
+                img#seven_instagram(src='../static/img/CD_Instagram.png')
+            p#seven_text
+              | Sign up for our newsletter
+            .klaviyo-form-RBSHP6
+            script(async='' type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TMxbzu')
+    script(src='../static/js/mobile.js')
+    script(src='../static/js/script.js')

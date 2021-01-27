@@ -1,0 +1,307 @@
+#body {
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    font-family: "Goudy Bookletter 1911";
+}
+#container {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    font-family: "Goudy Bookletter 1911";
+}
+/*==============================================================================================================================*/
+/*=======================================---------- SECTION THREE -----------====================================================*/
+/*==============================================================================================================================*/
+#three {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 56% auto;
+    grid-template-columns: auto 24.4% auto;
+    background-color: rgb(21, 21, 21);
+}
+#three_img_div {
+    height: auto;
+    width: 100%;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#three_img {
+    height: auto;
+    width: 100%;
+}
+#three_img_small_div {
+    height: 100%;
+    width: 100%;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+#three_img_small {
+    height: 100%;
+    width: 100%;
+}
+/*===============================================================================================================================*/
+/*=======================================---------- SECTION FOUR ------------====================================================*/
+/*===============================================================================================================================*/
+
+#four_h1 {
+    flex: 1;
+    color: rgb(173, 129, 86);
+    text-align: center;
+    font-family: "madlove2regular";
+    font-weight: 300;
+    font-size: 4em;
+    margin: auto;
+    width: 80%;
+    padding-top: 0.25em;
+}
+#four_text_box_div {
+    flex: 1;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    padding-bottom: 1em;
+}
+#four_text {
+    color: rgb(225, 213, 186);
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-weight: 100;
+}
+#four_time_div {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    grid-template-rows: auto;
+}
+
+#four_weekends {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgb(173, 129, 86);
+    font-size: 1.3em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+#four_weekends_div {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#four_weekends_time {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgb(225, 213, 186);
+    font-size: 1.1em;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 100%;
+    text-align: center;
+}
+/*========================================================================================================================================*/
+/*============================================---------- SECTION FIVE -----------=========================================================*/
+/*========================================================================================================================================*/
+#five {
+    background-color: rgb(173, 129, 86);
+    text-align: center;
+    width: 100%;
+}
+#five_img_div {
+    width: 100%;
+    height: 100%;
+}
+#five_img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#five_text_div {
+    height: auto;
+    width: 85%;
+    margin: auto;
+    padding: 1em 0em 1em 0em;
+}
+#five_h1 {
+    font-size: 4em;
+    font-family: "madlove2regular";
+    font-weight: 300;
+    width: 100%;
+    margin: auto;
+    color: black;
+}
+#five_p {
+    font-size: 1.2em;
+    color: rgb(225, 213, 186);
+    font-weight: 500;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+}
+#five_h4_div {
+    width: 100%;
+    margin-bottom: 2em;
+    padding-top: 1.25em;
+}
+#five_h4 {
+    width: 55%;
+    margin: auto;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    border: solid 2px rgb(225, 213, 186);
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-align: top;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+/*===============================================================================================================================*/
+/*=======================================---------- SECTION SIX -------------====================================================*/
+/*================================================================================================================================*/
+#six {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(173, 129, 86);
+    text-align: center;
+    padding-bottom: 1em;
+    width: 100%;
+}
+#six_img_div {
+    width: 100%;
+    height: 100%;
+}
+#six_img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#six_text_div {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding-top: 1em;
+}
+#six_h1 {
+    font-size: 4em;
+    font-family: "madlove2regular";
+    font-weight: 300;
+    width: 100%;
+    margin: auto;
+    color: black;
+}
+#six_p {
+    font-size: 1.2em;
+    color: rgb(225, 213, 186);
+    font-weight: 500;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    padding-bottom: 1em;
+    width: 85%;
+    margin: auto;
+    padding: 1.25em 0em 2.25em 0em;
+}
+#six_h4_div {
+    width: 100%;
+    margin-bottom: 2em;
+}
+#six_h4 {
+    width: 55%;
+    margin: auto;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    border: solid 2px rgb(225, 213, 186);
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-align: top;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.side_anchors {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+/*==========================================================================================================================*/
+/*========================================----------- MENU------------======================================================*/
+/*==============================================================================================================================*/
+.clicker {
+    position: absolute;
+}
+#container {
+    width: 100%;
+    height: 100%;
+}
+.mobile_menu a {
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+#closer_div {
+    position: absolute;
+    z-index: 10;
+    height: auto;
+    right: 0;
+    top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#closer {
+    width: 40%;
+    margin: auto;
+    margin-right: -1.25em;
+}
+#closer:hover {
+    cursor: pointer;
+}
+#divvest {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto;
+}
+#mobile_menu {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#mobile_about {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#mobile_gallery {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#mobile_contact {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#mobile_takeout {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+/*================================================================================================================================*/
+/*====================================-----------MEDIA QUERY: MOBILE------------==================================================*/
+/*================================================================================================================================*/
+@media all and (max-width: 500px) {
+    #closer {
+        width: 12%;
+    }
+}
